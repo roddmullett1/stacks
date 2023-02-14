@@ -23,4 +23,4 @@ jobs:
       run: ls controller/build/ble5-ctr/gcc
 
     - name: build application
-      run: make build -f controller/build/ble5-ctr/gcc
+      run: make build -f controller/build/ble5-ctr/gcc/makefile

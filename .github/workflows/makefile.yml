@@ -14,6 +14,11 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     
+    - name: arm-none-eabi-gcc
+    - uses: fiam/arm-none-eabi-gcc@v1
+      with:
+        release: '9-2019-q4'
+    
     - name: List Direcory
       run: ls ble-apps/build/common/gcc
 

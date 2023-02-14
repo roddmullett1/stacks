@@ -20,7 +20,7 @@ jobs:
         release: '10-2020-q4'
     
     - name: List Direcory
-      run: ls ble-apps/build/common/gcc
+      run: ls controller/build/ble5-ctr/gcc
 
     - name: build application
-      run: make -f controller/build/common/gcc/build.mk
+      run: make build -f controller/build/ble5-ctr/gcc

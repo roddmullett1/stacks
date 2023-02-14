@@ -17,7 +17,7 @@ jobs:
     - name: arm-none-eabi-gcc
       uses: fiam/arm-none-eabi-gcc@v1
       with:
-        release: '12.2.Rel1'
+        release: '10-2020-q4'
     
     - name: List Direcory
       run: ls ble-apps/build/common/gcc

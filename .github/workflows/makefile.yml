@@ -18,4 +18,4 @@ jobs:
       run: ls ble-apps/build/common/gcc
 
     - name: build application
-      run: make build -f ble-apps/build/common/gcc/build.mk
+      run: make -f ble-apps/build/common/gcc/build.mk

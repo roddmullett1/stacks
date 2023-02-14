@@ -13,6 +13,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+    
+    - name: List Direcory
+      run: ls ble-apps/build/common/gcc
 
     - name: build application
-      run: make build -f /ble-apps/build/common/gcc/build.mk
+      run: make build -f ble-apps/build/common/gcc/build.mk
